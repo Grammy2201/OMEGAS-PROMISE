@@ -1,14 +1,28 @@
 
-<nav class="navbar bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand">OMEGAS PROMISE</a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+<!-- NAVBAR START -->
 
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"class="nav-link" routerLink="home">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="donate-tab" data-bs-toggle="tab" data-bs-target="#donate-tab-pane" type="button" role="tab" aria-controls="donate-tab-pane" aria-selected="false" class="nav-link" routerLink="donate">Donate</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"class="nav-link"routerLink="contact" >Contact</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false"class="nav-link" routerLink="about">About</button>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="donate-tab-pane" role="tabpanel" aria-labelledby="donate-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">...</div>
+</div>
+
+<!-- NAV BAR END -->
 
 
 
